@@ -1,6 +1,6 @@
 require('babel-register')
 var express = require('express')
-var router = require("./src/routers")
+var router = require("./src/routers/index")
 const app = express();
 
 app.use(router);

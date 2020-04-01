@@ -1,4 +1,4 @@
-class Hello {
+export class Hello {
 
     constructor() {
     }
@@ -25,4 +25,3 @@ class Hello {
 
     }
 }
-module.exports = {Hello}
